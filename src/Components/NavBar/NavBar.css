@@ -1,0 +1,40 @@
+nav {
+    width: 100vw;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
+
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0;
+  }
+  /*
+  nav a {
+    text-decoration: none;
+    font-size: 24;
+    color: #1092a1;
+  }*/
+  
+  li.active svg {
+    color: #10CE85; /* Puedes personalizar este color */
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

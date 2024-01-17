@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.login-page {
+    height: 100dvh;
+    background: linear-gradient(191deg, #88A8AE 5.61%, rgba(136, 168, 174, 0.26) 90.37%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo {
+    margin: 60px auto;
+}
+
+.login-page__f-card {
+    background: var(--Neutral-White, #F2F2F2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    height: 100vh;
+    border-radius: 18px;
+
+}
+
+#user {
+    background: url("./src/Assets/Icons/Email.svg") no-repeat left;
+    background-size: 20px;
+    background-position: 9px 17px;
+}
+
+#pass {
+    background: url("./src/Assets/Icons/Lock 1.svg") no-repeat left;
+    background-size: 20px;
+    background-position: 9px 17px;
+}
+
+#login-form {
+    margin: 75px 33px;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form input {
+    width: 76vw;
+    height: 54px;
+    margin: 20px 35px 20px;
+    border-radius: 16px;
+    border: 1px solid #c9c9c9;
+    padding-left: 40px;
+    background-color: #FFF;
+
+    color: #676767;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.3px;
+}
+
+#enviar-login {
+    background-color: #88A8AE;
+    width: 83vw;
+    height: 64px;
+    margin: 20px 35px 20px;
+    border-radius: 16px;
+    border: 1px solid #88A8AE;
+    padding: auto;
+    color: var(--Neutral-white_pure, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.84px;
+}
+
+.contraseña-problema {
+    width: 100%;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+a {
+    color: #718488;
+    text-align: center;
+
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14.22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18.04px;
+
+}
+
+#login-google {
+
+    background-color: #88A8AE;
+    width: 65vw;
+    height: 64px;
+
+    border-radius: 16px;
+    border: 1px solid #88A8AE;
+
+    color: rgba(0, 0, 0, 0.66);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.3px;
+
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#google-btn {
+    width: 27.118px;
+    height: 27.118px;
+}
+
+#login-facebook {
+
+    background-color: #88A8AE;
+    width: 64px;
+    height: 64px;
+
+    border-radius: 16px;
+    border: 1px solid #88A8AE;
+
+    color: rgba(0, 0, 0, 0.66);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.3px;
+
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fb-btn {
+    width: 27.118px;
+    height: 27.118px;
+
+}
+
+#btns-login {
+    margin: 20px;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.separador {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+hr {
+    height: 2px;
+    width: 50%;
+    background-color: #c9c9c9;
+}
+
+.registrar {
+    margin-top: 95px;
+    margin-bottom: 35px;
+    width: 100dvw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+
+}
+
+#registrar-btn {
+
+    width: 119px;
+    height: 47px;
+
+    border-radius: 16px;
+    border: 1px solid var(--Neutral-White, #F2F2F2);
+    background: rgba(242, 242, 242, 0.31);
+
+    color: var(--Neutral-White, #F2F2F2);
+    text-align: center;
+    /* Text/Body */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.3px;
+
+}
+
+.registrar>div:first-child {
+    width: 119px
+}
+
+.error-red {
+    text-align: center;
+    /* Text/Caption */
+    font-family: Inter;
+    font-size: 14.22px;
+    font-style: normal;
+    line-height: 18.04px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+.imgIcono {
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  z-index: 999;
+  /* Ajusta el índice Z para asegurar que esté sobre otras capas */
+}
+
+#img {
+  width: 50px;
+  /* Ajusta el tamaño de la imagen según tus preferencias */
+  height: 50px;
+  /* Otros estilos que desees aplicar a la imagen */
+}
+
+.contenedor-mapa {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./src/Assets/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow-x: hidden !important;
+}
+
+.search{  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;}
+  

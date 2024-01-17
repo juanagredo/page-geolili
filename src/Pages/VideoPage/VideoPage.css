@@ -1,0 +1,45 @@
+/* Estilos generales para toda la página */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  
+  } 
+/* Estilos para el botón */
+/* Estilos para el botón */
+.button {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    z-index: 999;
+  }
+  
+  .button a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #edeff0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Hace que el botón sea circular */
+    fill: var(--Primary, #0EAD6F);
+    filter: drop-shadow(-1px -2px 8px rgba(255, 255, 255, 0.26));
+    position: relative;
+  }
+  
+  .flecha {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    z-index: 1; /* Asegura que la flecha esté al frente */
+  }
+  

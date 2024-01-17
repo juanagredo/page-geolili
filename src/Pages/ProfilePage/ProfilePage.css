@@ -1,0 +1,141 @@
+/* Otros estilos existentes */
+
+.container {
+background-color: #F2F2F2;
+}
+.sombra {
+position: absolute;
+right: -1650px ;
+ /* Alinea el objeto en el lado derecho del contenedor */
+  z-index: 9999; /* Valor alto para asegurar que esté por encima de otros elementos */
+  overflow: visible;
+  /* Otros estilos del objeto */
+width: 329.514px;
+height: 329.514px;
+transform: rotate(70.667deg);
+flex-shrink: 0;
+
+border-radius: 71px;
+background: linear-gradient(180deg, rgba(136, 168, 174, 0.62) 0%, rgba(136, 168, 174, 0.00) 100%);
+}
+
+.contenedor-flex{
+  display: flex;
+  justify-content: center; /* Centra el contenedor-bloque horizontalmente */
+  align-items: center;
+  flex-direction: column; /* Alinea el contenedor-bloque verticalmente */
+  height: 100vh; /* Establece la altura al 100% de la ventana */
+}
+
+.profileMain {
+    margin-top:139.88px ;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna vertical */
+    align-items: center;
+    
+}
+
+.profile-picture {
+    position: relative;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF; /* Color del borde */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la imagen */
+}
+
+#profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-top: 14px;
+    color: var(--Gray-700, #414141);
+
+/* Text/H2 */
+font-family: Inter;
+font-size: 22.78px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.9px; /* 126.866% */
+}
+
+.cartOptions {
+    display: flex;
+    flex-direction: column; 
+    
+   
+     /* Puedes ajustar el ancho según tus necesidades */
+}
+
+.options {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+line-height: 22.84px; /* 126.889% */
+width: 333.132px;
+height: 46.002px;
+flex-shrink: 0;     /**/
+
+border-radius: 16px;
+border: 1px solid rgba(0, 0, 0, 0.17);
+background: #FFF;
+margin-top: 25px;
+
+
+
+
+ /* Alinea verticalmente a la izquierda */
+
+}
+
+svg {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+p {
+    color: var(--Gray-600, #525252);
+    /* Text/Subtitle */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.contentlogin{
+    text-align: right;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+.subrayado{
+
+position: relative;
+color: var(--Primary-400, #10CE85);
+
+/* Text/Subtitle */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.84px; /* 126.889% */
+position: relative;
+text-decoration: none; /* Agrega un subrayado */
+
+}
+
+.subrayado::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Ajusta el espaciado del subrayado */
+    width: 100%;
+    height: 1px;
+    background-color:#10CE85; /* Color del subrayado */
+   
+  }
